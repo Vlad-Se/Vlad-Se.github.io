@@ -643,10 +643,6 @@ img {
         height: 100%;
         background: $dark;
         opacity: 0.5;
-        @media only screen and (max-width: 991px) {
-          display: flex;
-          opacity: 1;
-        }
       }
       &-name {
         position: absolute;
