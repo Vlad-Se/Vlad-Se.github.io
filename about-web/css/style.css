@@ -741,12 +741,6 @@ img {
   background: #111;
   opacity: 0.5;
 }
-@media only screen and (max-width: 991px) {
-  .projects__list-item::before {
-    display: flex;
-    opacity: 1;
-  }
-}
 .projects__list-item-name {
   position: absolute;
   left: 0;
