@@ -1,23 +1,29 @@
 [
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='dvov' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-6.webp' alt='' /><div class='projects__list-item-name'><span>DVOV</span> Производство и строительство быстровозводимых зданий</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='e-vitamini' class='projects__list-item vitamin wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-4.svg' alt='' /><div class='projects__list-item-name'><span>E-vitamini</span> Забота о вашем здоровье</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='unilex' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-5.webp' alt='' /><div class='projects__list-item-name'><span>Unilex</span> Российский производитель смазочно-охлаждающих жидкостей</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='olyta' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-10.webp' alt='' /><div class='projects__list-item-name'><span>Olyta</span> Студия текстиля</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='keramir' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-11.webp' alt='' /><div class='projects__list-item-name'><span>Керамир</span> Сеть семейных магазинов плитки и сантехники</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='ural-bosch' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-12.webp' alt='' /><div class='projects__list-item-name'><span>Bosch</span> Дизельный центр</div></div>"
   },
   {
-    "block": "<div class='projects__list-item'><img src='img/pr-1.webp' alt=''><div class='projects__list-item-name'><span>Photoplace</span> Аренда фотостудий и локаций</div></div>"
+    "block": "<div data-project='exclusiveokna' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-13.webp' alt='' /><div class='projects__list-item-name'><span>Exclusiveokna</span> Оконная компания</div></div>"
+  },
+  {
+    "block": "<div data-project='ibakimya' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-14.webp' alt='' /><div class='projects__list-item-name'><span>Ibakimya</span> Порошковые краски</div></div>"
+  },
+  {
+    "block": "<div data-project='ntk' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-15.webp' alt='' /><div class='projects__list-item-name'><span>NTK</span> Нерудная Транспортная Компания</div></div>"
   }
 ]

@@ -63,11 +63,13 @@ $(function () {
           document.getElementById("project-text").innerHTML = data[key].content;
           const box = document.getElementById("project-content");
           const boxBg = document.getElementById("project-bg");
+          lockScroll();
           box.classList.add("show");
           boxBg.classList.add("show");
           setTimeout(() => {
             box.classList.add("fade-in");
             boxBg.classList.add("fade-in");
+            $(".project-content__container").mCustomScrollbar({ axis: "y" });
           }, 10);
         } else {
           console.error("Данные не найдены");
@@ -111,10 +113,11 @@ $(function () {
     });
     /* Проекты */
     $(document).on("click", ".projects__list-item", function () {
-      let indexElement = $(this).index() + 1;
-      loadData("project-" + indexElement);
+      let nameElement = $(this).attr("data-project");
+      loadData(nameElement);
     });
     $(".project-content__close").click(function () {
+      unlockScroll();
       let thisEl = $(this);
       thisEl.closest(".project-content").removeClass("fade-in");
       $(".project-bg").removeClass("fade-in");
@@ -127,6 +130,7 @@ $(function () {
       var div = $(".project-content");
       if (div.hasClass("fade-in")) {
         if (!div.is(e.target) && div.has(e.target).length === 0) {
+          unlockScroll();
           div.removeClass("fade-in");
           $(".project-bg").removeClass("fade-in");
           setTimeout(function () {
