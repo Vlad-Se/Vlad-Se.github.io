@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weaving — плетёные изделия ручной работы</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!--
+    МЕДИА-БЛОКИ. Везде, где есть <div class="media">, можно вставить картинку ИЛИ видео:
+      картинка: <img src="img/photo.jpg" alt="Описание">
+      видео:    <video src="img/video.mp4" autoplay muted loop playsinline></video>
+    Пока внутри пусто — показывается цветная заглушка.
+    Чтобы медиа не обрезалось, а вписывалось целиком, добавьте блоку класс media--contain.
+  -->
+
+  <header class="header">
+    <a class="logo" href="#hero"><span class="logo__mark">W</span><span class="logo__text">Weaving</span></a>
+    <nav class="nav" id="nav">
+      <a href="#tech">Технология</a>
+      <a href="#works">Работы</a>
+      <a href="#about">Обо мне</a>
+      <a href="#faq">FAQ</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__actions">
+      <a class="hbtn hbtn--tg" href="https://t.me/your_username" target="_blank" rel="noopener" aria-label="Telegram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+        <span class="hbtn__label">Telegram</span>
+      </a>
+      <a class="hbtn hbtn--max" href="https://max.ru/" target="_blank" rel="noopener" aria-label="MAX">MAX</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span></button>
+    </div>
+  </header>
+
+  <nav class="dots" aria-label="Разделы"></nav>
+
+  <main>
+
+    <!-- 1. Медиа-экран -->
+    <section class="screen hero" id="hero">
+      <div class="media hero__media">
+        <!-- <img src="img/hero.jpg" alt=""> или <video src="img/hero.mp4" autoplay muted loop playsinline></video> -->
+      </div>
+      <div class="hero__panel">
+        <p class="eyebrow">Ручная работа</p>
+        <h1>Плетёные изделия<br><span>с характером</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="btn btn--light" href="#works">Смотреть товары</a>
+      </div>
+      <div class="hero__tab">Handmade</div>
+    </section>
+
+    <!-- 2. Технология плетения -->
+    <section class="screen tech" id="tech">
+      <div class="tech__head">
+        <span class="bigword">Tech</span>
+        <h2 class="title">Технология плетения</h2>
+        <p class="sub">Как рождается каждое изделие</p>
+      </div>
+      <div class="tech__body">
+        <div class="media tech__media">
+          <!-- <img src="img/tech.jpg" alt=""> или <video src="img/tech.mp4" autoplay muted loop playsinline></video> -->
+        </div>
+        <ol class="steps">
+          <li class="step"><span class="step__num">01</span><h3>Подбор материала</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</p></li>
+          <li class="step"><span class="step__num">02</span><h3>Создание каркаса</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</p></li>
+          <li class="step"><span class="step__num">03</span><h3>Плетение</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</p></li>
+          <li class="step"><span class="step__num">04</span><h3>Финишная обработка</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3. Выполненные работы: одна работа на экран -->
+    <section class="screen works" id="works">
+      <span class="bigword">Works</span>
+      <div class="works__top">
+        <div>
+          <h2 class="title">Выполненные работы</h2>
+          <p class="sub">Листайте, чтобы посмотреть больше</p>
+        </div>
+        <div class="slider__ctrl">
+          <span class="counter">01 / 05</span>
+          <button class="arrow" data-dir="-1" aria-label="Назад">&larr;</button>
+          <button class="arrow" data-dir="1" aria-label="Вперёд">&rarr;</button>
+        </div>
+      </div>
+      <div class="slider">
+        <!-- Карточки работ подставляются из файла content/works.js -->
+        <div class="slider__track"></div>
+      </div>
+    </section>
+
+    <!-- 4. Обо мне -->
+    <section class="screen about" id="about">
+      <span class="bigword bigword--vertical">About</span>
+      <div class="about__card">
+        <div class="media about__media">
+          <!-- <img src="img/me.jpg" alt=""> или <video src="img/me.mp4" autoplay muted loop playsinline></video> -->
+        </div>
+        <div class="about__text">
+          <h2 class="title">Обо мне</h2>
+          <p class="sub">Мастер и автор изделий</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          <div class="stats">
+            <div><b>10</b><span>лет опыта</span></div>
+            <div><b>300</b><span>изделий</span></div>
+            <div><b>120</b><span>клиентов</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FAQ -->
+    <section class="screen faq" id="faq">
+      <div class="faq__wrap">
+        <div class="faq__side">
+          <span class="bigword">FAQ</span>
+          <h2 class="title">Частые вопросы</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="faq__list">
+          <details name="faq" open><summary>Сколько времени занимает заказ?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></details>
+          <details name="faq"><summary>Можно ли заказать по своим размерам?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></details>
+          <details name="faq"><summary>Как ухаживать за изделием?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></details>
+          <details name="faq"><summary>Как происходит оплата и доставка?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></details>
+          <details name="faq"><summary>Есть ли гарантия?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Отзывы -->
+    <section class="screen reviews" id="reviews">
+      <div class="reviews__top">
+        <div>
+          <h2 class="title">Отзывы клиентов</h2>
+          <p class="sub">Нажмите на отзыв, чтобы увеличить</p>
+        </div>
+        <div class="slider__ctrl">
+          <button class="arrow" data-dir="-1" aria-label="Назад">&larr;</button>
+          <button class="arrow" data-dir="1" aria-label="Вперёд">&rarr;</button>
+        </div>
+      </div>
+
+      <!-- Скриншоты отзывов подставляются из файла content/reviews.js -->
+      <div class="shots">
+        <div class="shots__track"></div>
+        <div class="reviews__bar"><span></span></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="footer__box">
+      <div>
+        <h2 class="title">Связаться со мной</h2>
+        <p>Напишите в мессенджер — отвечу в течение дня.</p>
+      </div>
+      <div class="social">
+        <a class="btn btn--light" href="https://t.me/your_username" target="_blank" rel="noopener">Telegram</a>
+        <a class="btn btn--light" href="https://max.ru/" target="_blank" rel="noopener">MAX</a>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; 2026 Weaving</p>
+  </footer>
+
+  <!-- Просмотр отзыва в увеличенном виде -->
+  <dialog class="lightbox">
+    <button class="lightbox__close" type="button" aria-label="Закрыть">&times;</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="content/works.js"></script>
+  <script src="content/reviews.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
