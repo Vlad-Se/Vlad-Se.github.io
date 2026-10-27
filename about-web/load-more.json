@@ -3,7 +3,7 @@
     "block": "<div data-project='dvov' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-6.webp' alt='' /><div class='projects__list-item-name'><span>DVOV</span> Производство и строительство быстровозводимых зданий</div></div>"
   },
   {
-    "block": "<div data-project='e-vitamini' class='projects__list-item vitamin wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-4.svg' alt='' /><div class='projects__list-item-name'><span>E-vitamini</span> Забота о вашем здоровье</div></div>"
+    "block": "<div data-project='e-vitamini' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-4.webp' alt='' /><div class='projects__list-item-name'><span>E-vitamini</span> Забота о вашем здоровье</div></div>"
   },
   {
     "block": "<div data-project='unilex' class='projects__list-item wow animate__fadeInUp' data-wow-duration='1s'><img src='img/pr-5.webp' alt='' /><div class='projects__list-item-name'><span>Unilex</span> Российский производитель смазочно-охлаждающих жидкостей</div></div>"
